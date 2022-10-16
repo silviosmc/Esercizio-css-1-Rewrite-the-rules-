@@ -1,0 +1,15 @@
+:root {
+    --bgcolorbody: #011212;
+    --bgcolorball: #ff8800;
+}
+
+body {
+    background-color: var(--bgcolorbody);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bgcolorball);
+    border-radius: 50px;
+}
